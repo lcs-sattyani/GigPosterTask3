@@ -32,7 +32,24 @@ let offWhite = Color(hue: 83, saturation: 4, brightness: 89, alpha: 100)
 
 // Begin your solution here...
 
+//Backgroung black
+canvas.drawShapesWithBorders = false
+canvas.drawShapesWithFill = true
+canvas.fillColor = black
+canvas.drawRectangle(at: Point(x:0, y:0), width: 400, height: 600)
 
+//making arrow
+canvas.lineColor = purple
+canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 0, y: 60), lineWidth: 30)
+
+canvas.lineColor = purple
+canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 60, y: 0), lineWidth: 30)
+
+//line for arrow
+canvas.lineColor = purple
+canvas.drawLine(from: Point(x: 0, y: 0), to: Point(x: 60, y: 60), lineWidth: 15)
+    
+    
 /*:
  ## Use Source Control
  
